@@ -41,7 +41,11 @@ const Navbar: React.FC<NavbarProps> = ({
                 </button>
               ) : (
                 <div className="h-7 w-7 bg-indigo-600 rounded-lg flex items-center justify-center shadow-lg shadow-indigo-600/20">
-                  <Zap className="h-4 w-4 text-white fill-white" />
+                   <img 
+                    src="https://ui-avatars.com/api/?name=TE&background=4f46e5&color=fff&rounded=true" 
+                    alt="App Logo" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               )}
               <span className="text-base font-bold text-gray-900 tracking-tight">
