@@ -74,7 +74,12 @@ const AuthForm: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-8">
             <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-indigo-600 shadow-lg shadow-indigo-600/20 mb-4">
-                <Zap className="w-5 h-5 text-white" />
+                 {/* MANUALLY EDIT ICON HERE: Replace src with your logo path or URL */}
+                <img 
+                  src="https://ui-avatars.com/api/?name=TE&background=4f46e5&color=fff&rounded=true" 
+                  alt="App Logo" 
+                  className="w-full h-full object-cover"
+                />
             </div>
             <h1 className="text-2xl font-bold text-gray-900 tracking-tight">TaskEarn</h1>
             <p className="text-gray-500 text-sm mt-1">Start earning rewards today</p>
